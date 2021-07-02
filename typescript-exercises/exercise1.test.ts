@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { typeAssert, IsTypeEqual } from 'type-assertions';
+import { typeAssert, IsTypeEqual } from './type-assertions';
 import { User, logPerson, users } from './exercise1';
 
 typeAssert<IsTypeEqual<User, {name: string, age: number, occupation: string}>>();
